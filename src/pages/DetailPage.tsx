@@ -511,18 +511,6 @@ export default function DetailPage() {
             ))}
           </div>
 
-          <motion.div
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            variants={fadeInUp}
-          >
-            <img
-              src={images.organizerInterior}
-              alt="BNI 오거나이저 내부 구조"
-              className="rounded-2xl shadow-2xl w-full"
-            />
-          </motion.div>
         </div>
       </section>
 
