@@ -618,7 +618,7 @@ export default function DetailPage() {
               variants={fadeInUp}
             >
               <img
-                src="/assets/Gemini_Generated_Image_hpc3r8hpc3r8hpc3.png"
+                src="/assets/PhotoshopExtension_Image_2.png"
                 alt="QR코드 태그 클로즈업"
                 className="rounded-2xl shadow-2xl w-full"
               />
