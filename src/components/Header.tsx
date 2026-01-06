@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Link, useLocation } from 'wouter'
+import { Link } from 'wouter'
 
 const navItems = [
   { label: '오거나이저', href: '#organizer' },
@@ -9,7 +9,6 @@ const navItems = [
 ]
 
 export default function Header() {
-  const [location] = useLocation()
 
   return (
     <motion.header

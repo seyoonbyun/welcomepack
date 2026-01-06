@@ -1,5 +1,3 @@
-import { Search } from 'lucide-react'
-
 export default function TopBar() {
   return (
     <div className="fixed top-0 left-0 right-0 z-[60] bg-[#2a2a2a] text-white/90 text-xs py-1.5 border-b border-white/10">

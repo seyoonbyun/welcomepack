@@ -1,6 +1,5 @@
 import { Route, Switch } from 'wouter'
 import { ThemeProvider } from './components/theme-provider'
-import LandingPage from './pages/LandingPage'
 import DetailPage from './pages/DetailPage'
 import { Toaster } from './components/ui/toaster'
 
