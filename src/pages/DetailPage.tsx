@@ -4,14 +4,14 @@ import Header from '../components/Header'
 import { Button } from '../components/ui/button'
 import { ArrowUp, ChevronLeft, ChevronRight, ChevronDown } from 'lucide-react'
 
-// 이미지 경로는 public 폴더 기준 - 실제 존재하는 파일명 사용
+// 이미지 경로는 public 폴더 기준
 const images = {
-  hero: '/assets/PhotoshopExtension_Image_2.png', // 히어로 배경 (더스트백 대신 사용)
-  organizerFront: '/assets/PhotoshopExtension_Image_2.png', // 전면
-  organizerBack: '/assets/PhotoshopExtension_Image_3.png', // 후면
-  organizerInterior: '/assets/PhotoshopExtension_Image_4.png', // 내부
-  organizerSet: '/assets/KakaoTalk_20251213_145004065_11.jpg', // 전체 구성
-  organizerFull: '/assets/PhotoshopExtension_Image_5.png', // 풀 구성
+  hero: '/assets/KakaoTalk_20251213_145004065_01_1765606941478.jpg',
+  organizerFront: '/assets/KakaoTalk_20251213_145004065_03_1765606947653.jpg',
+  organizerSet: '/assets/KakaoTalk_20251213_145004065_11.jpg',
+  organizerInterior: '/assets/KakaoTalk_20251213_145004065_04_1765607346196.jpg',
+  organizerBack: '/assets/KakaoTalk_20251213_145004065_05_1765606952158.jpg',
+  organizerFull: '/assets/KakaoTalk_20251213_145035046_08_1765606959609.jpg',
 }
 
 const galleryImages = [
@@ -82,7 +82,7 @@ export default function DetailPage() {
           <img
             src={images.hero}
             alt="BNI Korea 멤버십 키트 더스트백"
-            className="w-full h-full object-contain object-center"
+            className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-black/40" />
         </div>
