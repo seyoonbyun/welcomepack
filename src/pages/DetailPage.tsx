@@ -7,7 +7,7 @@ import { ArrowUp, ChevronLeft, ChevronRight, ChevronDown } from 'lucide-react'
 // 이미지 경로는 public 폴더 기준
 const images = {
   hero: '/assets/KakaoTalk_20251213_145004065_01_1765606941478.jpg',
-  organizerFront: '/assets/KakaoTalk_20251213_145004065_03_1765606947653.jpg',
+  organizerFront: '/assets/PhotoshopExtension_Image_2.png', // 빨간색 오거나이저 + 손목 스트랩 + QR코드 키체인
   organizerSet: '/assets/KakaoTalk_20251213_145004065_11.jpg',
   organizerInterior: '/assets/KakaoTalk_20251213_145004065_04_1765607346196.jpg',
   organizerBack: '/assets/KakaoTalk_20251213_145004065_05_1765606952158.jpg',
