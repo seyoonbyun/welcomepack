@@ -82,7 +82,7 @@ export default function DetailPage() {
           <img
             src={images.hero}
             alt="BNI Korea 멤버십 키트 더스트백"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-contain object-center"
           />
           <div className="absolute inset-0 bg-black/40" />
         </div>
