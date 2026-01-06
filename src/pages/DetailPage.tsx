@@ -284,104 +284,29 @@ export default function DetailPage() {
             >
               {[
                 {
-                  title: '강렬한 BNI 레드 컬러',
-                  desc: '열정과 전문성을 상징하는 BNI 레드 컬러와 선명한 BNI KOREA 로고가 멤버로서의 강력한 소속감과 자부심을 느끼게 합니다.',
-                  titleStyle: {
-                    fontFamily: 'Inter, "Open Sans", sans-serif',
-                    fontSize: '16px',
-                    fontWeight: 600,
-                    lineHeight: '24px',
-                    color: 'rgb(23, 23, 23)',
-                  },
-                  descStyle: {
-                    fontFamily: 'Inter, "Open Sans", sans-serif',
-                    fontSize: '14px',
-                    fontWeight: 400,
-                    lineHeight: '22.75px',
-                    color: 'rgb(102, 102, 102)',
-                  },
+                  title: '프리미엄 소재',
+                  desc: '고급 사피아노 텍스처의 PU 레더로 제작되어 내구성과 고급스러움을 동시에 갖추었습니다.',
                   img: '/assets/PhotoshopExtension_Image_2.png',
                 },
                 {
-                  title: 'Givers Gain® 손목 스트랩',
-                  desc: '탈부착 가능한 손목 스트랩에 BNI의 핵심 철학 "Givers Gain®"이 각인되어 있어 언제 어디서든 BNI의 가치를 기억하고 실천할 수 있습니다.',
-                  titleStyle: {
-                    fontFamily: 'Inter, "Open Sans", sans-serif',
-                    fontSize: '16px',
-                    fontWeight: 600,
-                    lineHeight: '24px',
-                    color: 'rgb(23, 23, 23)',
-                  },
-                  descStyle: {
-                    fontFamily: 'Inter, "Open Sans", sans-serif',
-                    fontSize: '14px',
-                    fontWeight: 400,
-                    lineHeight: '22.75px',
-                    color: 'rgb(102, 102, 102)',
-                  },
+                  title: '네트워킹 최적화',
+                  desc: '명함, 리퍼럴 슬립, 비즈니스 카드를 체계적으로 수납하여 효율적인 네트워킹을 지원합니다.',
                   img: '/assets/PhotoshopExtension_Image_3.png',
                 },
                 {
-                  title: '내부 슬로건 각인',
-                  desc: '오거나이저를 열면 마주하는 "Changing the Way the World Does Business™ - 세상의 비즈니스 방법을 바꿉니다" 문구가 끊임없는 영감과 동기를 부여합니다.',
-                  titleStyle: {
-                    fontFamily: 'Inter, "Open Sans", sans-serif',
-                    fontSize: '16px',
-                    fontWeight: 600,
-                    lineHeight: '24px',
-                    color: 'rgb(23, 23, 23)',
-                  },
-                  descStyle: {
-                    fontFamily: 'Inter, "Open Sans", sans-serif',
-                    fontSize: '14px',
-                    fontWeight: 400,
-                    lineHeight: '22.75px',
-                    color: 'rgb(102, 102, 102)',
-                  },
+                  title: '글로벌 BNI 아이덴티티',
+                  desc: '전 세계 BNI 멤버들과 동일한 브랜드 경험으로 글로벌 네트워크의 일원임을 실감합니다.',
                   img: '/assets/PhotoshopExtension_Image_4.png',
                 },
                 {
-                  title: '체계적인 수납 시스템',
-                  desc: '메쉬 포켓, 일반 포켓, 펜 홀더가 체계적으로 설계되어 명함, 책, 리퍼럴 슬립 등 필수 비즈니스 도구를 완벽하게 정리할 수 있습니다.',
-                  titleStyle: {
-                    fontFamily: 'Inter, "Open Sans", sans-serif',
-                    fontSize: '16px',
-                    fontWeight: 600,
-                    lineHeight: '24px',
-                    color: 'rgb(23, 23, 23)',
-                  },
-                  descStyle: {
-                    fontFamily: 'Inter, "Open Sans", sans-serif',
-                    fontSize: '14px',
-                    fontWeight: 400,
-                    lineHeight: '22.75px',
-                    color: 'rgb(102, 102, 102)',
-                  },
+                  title: '즉각적인 전문성 표현',
+                  desc: '미팅 시작 전부터 정리된 오거나이저가 당신의 준비성과 전문성을 무언으로 전달합니다.',
                   img: '/assets/PhotoshopExtension_Image_5.png',
-                },
-                {
-                  title: '스마트 QR코드 태그',
-                  desc: '탈착 가능한 QR코드 태그로 디지털 명함, BNI 커넥트 프로필에 즉시 연결하여 아날로그 만남을 디지털 관계로 전환합니다.',
-                  titleStyle: {
-                    fontFamily: 'Inter, "Open Sans", sans-serif',
-                    fontSize: '16px',
-                    fontWeight: 600,
-                    lineHeight: '24px',
-                    color: 'rgb(23, 23, 23)',
-                  },
-                  descStyle: {
-                    fontFamily: 'Inter, "Open Sans", sans-serif',
-                    fontSize: '14px',
-                    fontWeight: 400,
-                    lineHeight: '22.75px',
-                    color: 'rgb(102, 102, 102)',
-                  },
-                  img: '/assets/PhotoshopExtension_Image_6.png',
                 },
               ].map((feature, index) => (
                 <motion.div
                   key={index}
-                  className="bg-white rounded-xl p-6 shadow-lg border border-gray-100 hover:shadow-xl transition-shadow"
+                  className="bg-white rounded-xl p-6 shadow-lg"
                   variants={fadeInUp}
                 >
                   <img
@@ -389,21 +314,20 @@ export default function DetailPage() {
                     alt={feature.title}
                     className="w-full h-48 object-cover rounded-lg mb-4"
                   />
-                  <h3 
+                  <h3
                     className="mb-2"
-                    style={feature.titleStyle || {
+                    style={{
                       fontFamily: 'Inter, "Open Sans", sans-serif',
-                      fontSize: '16px',
-                      fontWeight: 600,
-                      lineHeight: '24px',
+                      fontSize: '14px',
+                      fontWeight: 500,
+                      lineHeight: '20px',
                       color: 'rgb(23, 23, 23)',
                     }}
                   >
                     {feature.title}
                   </h3>
-                  <p 
-                    className="leading-relaxed"
-                    style={feature.descStyle || {
+                  <p
+                    style={{
                       fontFamily: 'Inter, "Open Sans", sans-serif',
                       fontSize: '14px',
                       fontWeight: 400,
@@ -518,32 +442,37 @@ export default function DetailPage() {
             </p>
           </motion.div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 mb-12">
             {[
               {
-                title: '프리미엄 소재',
-                desc: '고급 사피아노 텍스처의 PU 레더로 제작되어 내구성과 고급스러움을 동시에 갖추었습니다.',
+                title: '강렬한 BNI 레드 컬러',
+                desc: '열정과 전문성을 상징하는 BNI 레드 컬러와 선명한 BNI KOREA 로고가 멤버로서의 강력한 소속감과 자부심을 느끼게 합니다.',
                 img: '/assets/PhotoshopExtension_Image_2.png',
               },
               {
-                title: '네트워킹 최적화',
-                desc: '명함, 리퍼럴 슬립, 비즈니스 카드를 체계적으로 수납하여 효율적인 네트워킹을 지원합니다.',
+                title: 'Givers Gain® 손목 스트랩',
+                desc: '탈부착 가능한 손목 스트랩에 BNI의 핵심 철학 "Givers Gain®"이 각인되어 있어 언제 어디서든 BNI의 가치를 기억하고 실천할 수 있습니다.',
                 img: '/assets/PhotoshopExtension_Image_3.png',
               },
               {
-                title: '글로벌 BNI 아이덴티티',
-                desc: '전 세계 BNI 멤버들과 동일한 브랜드 경험으로 글로벌 네트워크의 일원임을 실감합니다.',
+                title: '내부 슬로건 각인',
+                desc: '오거나이저를 열면 마주하는 "Changing the Way the World Does Business™ - 세상의 비즈니스 방법을 바꿉니다" 문구가 끊임없는 영감과 동기를 부여합니다.',
                 img: '/assets/PhotoshopExtension_Image_4.png',
               },
               {
-                title: '즉각적인 전문성 표현',
-                desc: '미팅 시작 전부터 정리된 오거나이저가 당신의 준비성과 전문성을 무언으로 전달합니다.',
+                title: '체계적인 수납 시스템',
+                desc: '메쉬 포켓, 일반 포켓, 펜 홀더가 체계적으로 설계되어 명함, 책, 리퍼럴 슬립 등 필수 비즈니스 도구를 완벽하게 정리할 수 있습니다.',
                 img: '/assets/PhotoshopExtension_Image_5.png',
+              },
+              {
+                title: '스마트 QR코드 태그',
+                desc: '탈착 가능한 QR코드 태그로 디지털 명함, BNI 커넥트 프로필에 즉시 연결하여 아날로그 만남을 디지털 관계로 전환합니다.',
+                img: '/assets/PhotoshopExtension_Image_6.png',
               },
             ].map((item, index) => (
               <motion.div
                 key={index}
-                className="bg-white rounded-xl p-6 shadow-lg"
+                className="bg-white rounded-xl p-6 shadow-lg border border-gray-100 hover:shadow-xl transition-shadow"
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, margin: '-50px' }}
@@ -554,19 +483,20 @@ export default function DetailPage() {
                   alt={item.title}
                   className="w-full h-48 object-cover rounded-lg mb-4"
                 />
-                <h3 
+                <h3
                   className="mb-2"
                   style={{
                     fontFamily: 'Inter, "Open Sans", sans-serif',
-                    fontSize: '14px',
-                    fontWeight: 500,
-                    lineHeight: '20px',
+                    fontSize: '16px',
+                    fontWeight: 600,
+                    lineHeight: '24px',
                     color: 'rgb(23, 23, 23)',
                   }}
                 >
                   {item.title}
                 </h3>
-                <p 
+                <p
+                  className="leading-relaxed"
                   style={{
                     fontFamily: 'Inter, "Open Sans", sans-serif',
                     fontSize: '14px',
