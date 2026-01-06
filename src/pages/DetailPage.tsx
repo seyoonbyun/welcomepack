@@ -4,14 +4,14 @@ import Header from '../components/Header'
 import { Button } from '../components/ui/button'
 import { ArrowUp, ChevronLeft, ChevronRight, ChevronDown } from 'lucide-react'
 
-// 이미지 경로는 public 폴더 기준 - 실제 assets 폴더에 있는 파일명 사용
+// 이미지 경로는 public 폴더 기준
 const images = {
-  hero: '/assets/스크린샷 2025-12-13 161109.png', // 히어로 배경 이미지 (더스트백)
-  organizerFront: '/assets/PhotoshopExtension_Image_2.png', // 전면
-  organizerBack: '/assets/PhotoshopExtension_Image_3.png', // 후면
-  organizerInterior: '/assets/PhotoshopExtension_Image_4.png', // 내부
-  organizerSet: '/assets/KakaoTalk_20251213_145004065_11.jpg', // 전체 구성
-  organizerFull: '/assets/PhotoshopExtension_Image_5.png', // 풀 구성
+  hero: '/assets/KakaoTalk_20251213_145004065_01_1765606941478.jpg',
+  organizerFront: '/assets/KakaoTalk_20251213_145004065_03_1765606947653.jpg',
+  organizerSet: '/assets/KakaoTalk_20251213_145004065_11.jpg',
+  organizerInterior: '/assets/KakaoTalk_20251213_145004065_04_1765607346196.jpg',
+  organizerBack: '/assets/KakaoTalk_20251213_145004065_05_1765606952158.jpg',
+  organizerFull: '/assets/KakaoTalk_20251213_145035046_08_1765606959609.jpg',
 }
 
 const galleryImages = [
