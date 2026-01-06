@@ -4,9 +4,9 @@ import Header from '../components/Header'
 import { Button } from '../components/ui/button'
 import { ArrowUp, ChevronLeft, ChevronRight, ChevronDown } from 'lucide-react'
 
-// 이미지 경로는 public 폴더 기준
+// 이미지 경로는 public 폴더 기준 - 실제 assets 폴더에 있는 파일명 사용
 const images = {
-  hero: '/assets/PhotoshopExtension_Image_2.png', // 히어로 배경 이미지
+  hero: '/assets/스크린샷 2025-12-13 161109.png', // 히어로 배경 이미지 (더스트백)
   organizerFront: '/assets/PhotoshopExtension_Image_2.png', // 전면
   organizerBack: '/assets/PhotoshopExtension_Image_3.png', // 후면
   organizerInterior: '/assets/PhotoshopExtension_Image_4.png', // 내부
