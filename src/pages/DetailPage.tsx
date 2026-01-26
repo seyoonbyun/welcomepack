@@ -688,7 +688,7 @@ export default function DetailPage() {
                 <img
                   src={item.img}
                   alt={item.title}
-                  className="w-full h-64 object-cover"
+                  className="w-full h-64 object-contain bg-gray-50"
                 />
                 <div className="p-6">
                   <p className="text-xs text-gray-500 font-medium mb-2">{item.category}</p>
