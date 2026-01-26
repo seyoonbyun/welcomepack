@@ -141,10 +141,10 @@ export default function DetailPage() {
               당신의 비즈니스 성장을 위한 여정이 시작됩니다.
             </motion.p>
 
-            {/* CTA Button - Light Gray BG, White Text */}
+            {/* CTA Button - Light Gray BG, Brand Red Text */}
             <motion.div variants={fadeInUp}>
               <Button
-                className="bg-gray-100 hover:bg-gray-200 text-white border border-gray-300 rounded-full shadow-lg"
+                className="bg-gray-100 hover:bg-gray-200 text-bni-red border border-gray-300 rounded-full shadow-lg"
                 style={{
                   fontFamily: 'Inter, "Open Sans", sans-serif',
                   fontSize: '14px',
